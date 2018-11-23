@@ -22,7 +22,7 @@
               <div class="media-content">
                 <div class="content">
                   <p>
-                    <nuxt-link :to="`/post/${post.id}`">
+                    <nuxt-link :to="`./post/${post.id}`">
                       <strong>{{ post.title }}</strong>
                     </nuxt-link>
                   </p>

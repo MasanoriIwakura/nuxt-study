@@ -7,7 +7,7 @@
         <div class="card-image">
           <figure class="image">
             <img
-              src="../static/image/my-cat.jpg"
+              src="~/static/image/my-cat.jpg"
               alt="Placeholder image">
           </figure>
         </div>

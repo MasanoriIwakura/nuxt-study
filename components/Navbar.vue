@@ -6,7 +6,7 @@
     <div class="navbar-brand">
       <nuxt-link
         class="navbar-item"
-        to="/">
+        to="./">
         NUXT-STUDY
       </nuxt-link>
 
@@ -29,7 +29,7 @@
       <div class="navbar-start">
         <nuxt-link
           class="navbar-item"
-          to="/about">
+          to="./about">
           About
         </nuxt-link>
       </div>

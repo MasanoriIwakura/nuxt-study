@@ -2,7 +2,7 @@ const pkg = require('./package')
 
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
-    base: '/nuxt-study/'
+    base: '/<repository-name>/'
   }
 } : {}
 
@@ -82,5 +82,6 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  ...routerBase
 }
